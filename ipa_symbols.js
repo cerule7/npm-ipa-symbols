@@ -1,4 +1,3 @@
-
 const BI = 'BILABIAL';
 const LD = 'LABIODENTAL';
 const LL = 'LINGUOLABIAL';
@@ -1263,7 +1262,7 @@ export const VOWELS = [
     },
     {
         symbol: 'ɛ',
-        height: NO,
+        height: OM,
         backness: F,
         roundedness: UR,
         url: 'https://en.wikipedia.org/wiki/Open-mid_front_unrounded_vowel',
