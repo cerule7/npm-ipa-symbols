@@ -30,7 +30,28 @@ const LP = 'LATERAL APPROXIMANT';
 const LT = 'LATERAL TAP/FLAP';
 
 export const manners = [PL, NA, IM, SA, NS, SF, NF, AP, TF, TR, LA, LF, LP, LT];
- 
+
+const UR = 'unrounded';
+const R = 'rounded';
+
+const C = 'close';
+const NC = 'near-close';
+const CM = 'close-mid';
+const M = 'mid';
+const OM = 'open-mid';
+const NO = 'near-open';
+const O = 'open';
+
+export const heights = [C,NC,CM,M,OM,NO,O];
+
+const F = 'front';
+const CE = 'central';
+const B = 'back';
+const NB = 'near-back';
+const NFR = 'near-front';
+
+export const backnesses = [F,NFR,CE,NB,B];
+
 export const CONSONANTS = [
     {
         manner: NA,
@@ -1181,27 +1202,6 @@ export const CONSONANTS = [
         url: '',
     },
 ];
-
-const UR = 'unrounded';
-const R = 'rounded';
-
-const C = 'close';
-const NC = 'near-close';
-const CM = 'close-mid';
-const M = 'mid';
-const OM = 'open-mid';
-const NO = 'near-open';
-const O = 'open';
-
-export const heights = [C,NC,CM,M,OM,NO,O];
-
-const F = 'front';
-const CE = 'central';
-const B = 'back';
-const NB = 'near-back';
-const NFR = 'near-front';
-
-export const backnesses = [F,NFR,CE,NB,B];
 
 export const VOWELS = [
     {

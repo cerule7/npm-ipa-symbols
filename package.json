@@ -1,15 +1,16 @@
 {
-    "author": "Charles Rule <charles.rule@rutgers.edu> (http://linkedin.com/in/charles-rule)",
+    "author": "Charles Rule <cruleis@gmail.com> (http://linkedin.com/in/charles-rule)",
     "bugs": {
       "url": "https://github.com/cerule7/npm-ipa-symbols/issues"
     },
     "description": "A collection of International Phonetic Alphabet symbols and associated Wikipedia information, plus some utility scripts.",
     "license": "MIT",
     "name": "ipa-symbols",
+    "keywords": ["international phonetic alphabet", "ipa", "linguistics", "phonetics", "ipa characters"],
     "repository": {
       "type": "git",
       "url": "https://github.com/cerule7/npm-ipa-symbols"
     },
-    "version": "1.0.0",
+    "version": "1.0.1",
     "homepage": "https://github.com/cerule7/npm-ipa-symbols"
   }
