@@ -6,6 +6,16 @@ It is published as `ipa-symbols` on [npm](https://www.npmjs.com/package/ipa-symb
 
 `npm i ipa-symbols`
 
+### Use
+
+Here is one way to import and use this package, for example to get all consonants that are articulated dentally:
+
+`import * as IPA from "ipa-symbols";`
+
+`console.log(IPA.default.IPA_UTILS.getConsonantsByPlace("DENTAL"));`
+
+The utility file is exported as `IPA_UTILS` and the symbol file is exported as `IPA_SYMBOLS`.
+
 ### Structure
 
 Currently, these are the files in this package:
