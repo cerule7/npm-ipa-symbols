@@ -1,4 +1,4 @@
-import { CONSONANTS, VOWELS } from "./ipa_info";
+import { CONSONANTS, VOWELS } from "ipa-symbols/ipa_symbols.js";
 
 //Returns true if a symbol is a vowel, else false
 export const isVowel = (symbol) => {
